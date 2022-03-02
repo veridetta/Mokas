@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoFragment">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:minHeight="@dimen/_250sdp"
+        android:layout_gravity="center"
+        android:padding="@dimen/_12sdp"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/mokaspng"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mokas Apps"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:textColor="@color/blue_400"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mokascirebon.com adalah tempat jual beli motor bekas terpercaya di Cirebon. Berdiri sejak 2016 yang dulunya bernama motorbekascirebon.com dan berubah nama menjadi mokascirebon.com
+hingga sekarang. Mokascirebon.com beralamat di Plered Kabupaten Cirebon tepatnya belakang BT Batik Trusmi.
+Kami Mokas CIrebon menerima Pembayaran Cash maupun Kredit untuk Wilayah Cirebon, Majalengka, Kuningan dan Indramayu.
+Urusan motor bekas jangan pernah ragu percayakan pada kami MOKASCIREBON.COM. Siap melayani dengan senang hati."
+            android:textSize="@dimen/_16sdp"
+            android:textColor="@color/blue_400"/>
+
+    </LinearLayout>
+
+</FrameLayout>
